@@ -1,2 +1,2 @@
-# web-utvikling-2024
- webutvikling arbeidskrav 2024
+# arbeidskrav-24-web-utvikling
+ web dev arbeidskrav

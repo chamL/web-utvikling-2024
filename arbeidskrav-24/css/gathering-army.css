@@ -1,0 +1,193 @@
+.gathering_army_main {
+    background-color: beige;
+    padding: 2rem 1rem;
+}
+
+.main_body_top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 16rem;
+    padding: 3rem;
+}
+
+.filter_div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: bisque;
+    padding: 2rem 4rem;
+    padding-top: 8rem;
+}
+
+.filter_middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.filter_middle button {
+    padding: .5rem 3rem;
+    background-color: burlywood;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.635);
+}
+
+.filter_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+.filter_bottom p {
+    font-size: 18px;
+}
+
+.filter_bottom input {
+    width: 30rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: .5rem;
+    border: solid 2px darkgray;
+    text-align: center;
+    font-size: 16px;
+}
+
+.main_body {
+    padding-bottom: 14rem;
+}
+
+.main_p {
+    font-size: 34px;
+    text-shadow: 1px 2px 2px darkgoldenrod;
+}
+
+/* CODE FOR THE CARDS */
+
+.card {
+    position: relative;
+    width: 13rem;
+    height: 13rem;
+    border-radius: .5rem;
+    margin: 0 auto;
+}
+
+.topCardBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    border-radius: .5rem;
+    background-color: white;
+}
+
+.card_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: .5rem;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    z-index: 10;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.621);
+}
+
+.underCard {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    box-shadow: inset 1px 3px 5px rgba(0, 0, 0, 0.553);
+    width: 100%;
+    height: 13rem;
+    border-radius: .5rem;
+    text-align: center;
+    z-index: 5;
+    transition: transform 1s ease-in-out;
+
+
+}
+
+
+
+.underCard.slide-down {
+    transform: translateY(12.5rem);
+    /* Slide down by 10rem */
+}
+
+
+.card_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    height: 12rem;
+    padding: 0 .5rem;
+}
+
+.card_info_numbers {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    padding: 1rem 0rem;
+}
+
+.card_info_numbers p {}
+
+.card_info_numbers span {
+    font-weight: bold;
+}
+
+.card_info p {}
+
+.card_rating {}
+
+.Card_price {}
+
+.buy_btn {
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    width: 90%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.553);
+    cursor: pointer;
+}
+
+.card_arrow {
+    position: absolute;
+    bottom: -2.5rem;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 1rem;
+    padding: .5rem 1.5rem;
+    padding-bottom: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.553);
+    transition: 500ms ease-in-out;
+}
+
+.card_arrow.rotated {
+    transform: translate(-50%) rotate(-180deg);
+}

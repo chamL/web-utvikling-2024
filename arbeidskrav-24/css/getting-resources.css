@@ -1,0 +1,153 @@
+.resource_intro {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+}
+
+
+
+.resource_intro p {
+    font-size: 18px;
+}
+
+.resource_top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.resource_top_left,
+.resource_top_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.resource_top button {
+    width: 12rem;
+    border-radius: 1rem;
+    border: solid 1.5px tan;
+    background-color: blanchedalmond;
+    padding: 0.5rem;
+    cursor: pointer;
+    margin: 1rem;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.405);
+}
+
+.wood_img,
+.mine_img {
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+
+}
+
+.resource_bottom {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: burlywood;
+    font-size: 30px;
+    padding: 1rem 2rem;
+    box-shadow: -1px -2px 8px 1px rgba(0, 0, 0, 0.308);
+
+}
+
+.resource_bottom div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource_bottom img {
+    width: 4rem;
+    margin: .5rem;
+}
+
+@media (max-width:500px) {
+    .resource_top {
+        flex-direction: column;
+        margin-bottom: 6rem;
+    }
+
+
+    .resource_top button {
+        width: 6rem;
+        margin: 1rem;
+
+    }
+
+    .resource_top button img {
+        height: 2rem;
+
+
+    }
+
+    .wood_img,
+    .mine_img {
+        width: 14rem;
+        margin: 1rem;
+
+    }
+
+    .resource_bottom {
+        font-size: 15px;
+        padding: .5rem 1rem;
+
+    }
+
+    .resource_bottom img {
+        width: 2rem;
+        margin: .5rem;
+    }
+
+    .wallet_div {
+        display: none;
+    }
+}
+
+@media (max-width:780px) {
+    .resource_top {
+        margin-bottom: 6rem;
+    }
+
+
+    .resource_top button {
+        width: 6rem;
+        margin: 1rem;
+
+    }
+
+    .resource_top button img {
+        height: 2rem;
+
+
+    }
+
+    .wood_img,
+    .mine_img {
+        width: 14rem;
+        margin: 1rem;
+
+    }
+
+    .resource_bottom {
+        font-size: 15px;
+        padding: .5rem 1rem;
+
+    }
+
+    .resource_bottom img {
+        width: 2rem;
+        margin: .5rem;
+    }
+
+    .wallet_div {
+        display: none;
+    }
+}

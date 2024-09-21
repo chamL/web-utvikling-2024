@@ -1,0 +1,41 @@
+.myArmy_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    padding: 3rem;
+    text-align: center;
+    background-color: bisque;
+}
+
+.myArmy_intro h1 {}
+
+.myArmy_intro p {
+    width: 80%;
+    padding: 2rem;
+    font-size: 20px;
+    color: burlywood;
+    text-shadow: 1px 2px 2px black;
+
+}
+
+.army_section {
+    background-color: azure;
+    padding: 2rem;
+}
+
+.army_section p {
+    font-size: 24px;
+    color: burlywood;
+    text-shadow: 1px 2px 2px black;
+}
+
+.army_section div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    min-height: 20rem;
+    width: 100%;
+
+
+}
